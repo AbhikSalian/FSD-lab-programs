@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            margin: 5px;
+            height: 30px;
+            border-radius: 5px;
+            border: 0.3px solid black;
+            background-color: rgb(179, 179, 177);
+        }
+        #myForm{
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            border: 1px solid black;
+            width: 15%;
+            padding: 10px;
+            background-color: rgb(186, 142, 216);
+        }
+        button{
+            background-color: aquamarine;
+            width: 100px;
+            margin-top: 20px;
+            height: 40px;
+            border: 0.3px solid black;
+            border-radius: 5px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <input type="text" class='name' id="firstName" name="firstName" required><br><br>
+        <input type="text" class='name' id="lastName" required><br>
+        <button onclick=greetMe()>Greet Me</button>
+    </form>
+    <script>
+        function greetMe()
+        {
+            let firstName=document.getElementById('firstName').value;
+            var lastName=document.getElementById('lastName').value;
+            if(lastName)
+            
+            alert(`Hello ${firstName} ${lastName}`);
+            // else
+            // alert(`enter`);
+
+
+        }
+    </script>
+</body>
+</html>

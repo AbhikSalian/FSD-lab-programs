@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'game_over';
+    src: url('./game_over.ttf');
+}
+.display-box{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    width:165px;
+    height: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: rgb(155, 206, 97);
+}
+input[type=button]{
+    border:1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    height: 50px;
+    width:50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: grey;
+}
+input[value='C']{
+    background-color: brown;
+}
+.Calculator{
+    border: 1px solid black;
+    width:260px;
+    /* margin: auto; */
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+}
+.container{
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
