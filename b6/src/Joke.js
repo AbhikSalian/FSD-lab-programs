@@ -1,5 +1,5 @@
 import React from "react";
-const Joke=({setup,punchline})=>{
+function Joke({setup,punchline}){
     return (
         <div className="list-items">
             <p><strong>Setup: </strong>{setup}</p>

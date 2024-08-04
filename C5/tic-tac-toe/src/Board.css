@@ -1,0 +1,38 @@
+.board {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .board-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 80px); /* Create a 3-column grid */
+    gap: 1px; /* Add a small gap between squares if desired */
+  }
+  
+  .square {
+    height: 80px;
+    width: 80px;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    border: 1px solid #1b0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    padding: 0; /* Ensure no padding */
+    margin: 0; /* Ensure no margin */
+    margin-bottom: 1px;
+    outline: none; /* Remove default button outline */
+  }
+  
+  /* .square:focus,
+  .square:active {
+    outline: none; 
+  } */
+  
+  .status {
+    margin-bottom: 10px; /* Add some space between the status and the grid */
+  }
+  
+  

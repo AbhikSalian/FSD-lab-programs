@@ -12,11 +12,11 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
-th.td{
+/* th.td{
     padding: 1%;
     text-align: left;
     border-bottom: 1 px solid #ddd;
-}
+} */
 th{
     background-color: #bdbbbb;
     padding: 1%;
